@@ -3,5 +3,4 @@ const fetchItems = (page = 1) => async() => {
     const data = await response.json();
     return data
 }
-
 export default fetchItems
